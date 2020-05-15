@@ -30,15 +30,15 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'About Me',
+        title: 'About Me 關於我！',
         name: 'Sun Pochin'
     })
 })
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'This is some helpful text.',
-        title: 'Help',
+        helpText: '這是我們的幫助頁面！',
+        title: '幫助',
         name: 'Sun Pochin'
     })
 })
